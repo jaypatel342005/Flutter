@@ -5,6 +5,8 @@ import 'package:unit_2/Lab_6/Layout3.dart';
 import 'package:unit_2/Lab_6/Layout4.dart';
 import 'package:unit_2/Lab_6/Layout5.dart';
 import 'package:unit_2/Lab_6/Layout6.dart';
+import 'package:unit_2/Lab_7/Form1.dart';
+import 'package:unit_2/Lab_8/Lab_8_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -37,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:Layout6(),
+      home:Form1(),
     );
   }
 }

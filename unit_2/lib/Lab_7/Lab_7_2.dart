@@ -16,7 +16,7 @@ class Lab_7_2 extends StatelessWidget {
   Widget customText({required String name , required Color clr}){
     return Text(
       name ,
-      style: TextStyle(
+      style:  TextStyle(
           color: Colors.amber,
       ),
     );
